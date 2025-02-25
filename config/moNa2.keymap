@@ -34,11 +34,13 @@
             tapping-term-ms = <200>;
         };
 
-        mouse_scroll: mouse_wheel_scrl{
+        mouse_scroll: mouse_wheel_scrl {
             compatible = "zmk,behavior-sensor-rotate-var";
             #sensor-binding-cells = <2>;
             bindings = <&msc>, <&msc>;
+
             // 追加: スクロールのタップ時間を設定 (20ms)
+
             tap-ms = <20>;
         };
     };
@@ -48,10 +50,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R             &kp T                                         &kp Y            &kp U  &lt 5 I    &kp O         &kp BACKSPACE
-&kp A             &kp S         &kp D         &kp F             &kp G           &trans         &lt 5 ENTER    &kp H            &kp J  &kp K      &kp L         &kp ENTER
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &kp B           &lt 2 Q        &lt 2 P        &kp N            &kp M  &kp COMMA  &lt 6 PERIOD  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 4 INT_HENKAN  &lt 3 LEFT_GUI  &lt 1 SPACE    &kp BACKSPACE  &lt 3 RIGHT_GUI                                  &kp DEL
+&kp Q             &kp W         &kp E         &kp R             &kp T                                       &kp Y            &kp U  &lt 5 I    &kp O         &kp BACKSPACE
+&kp A             &kp S         &kp D         &kp F             &kp G           &trans         &lt 5 ENTER  &kp H            &kp J  &kp K      &kp L         &kp ENTER
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &kp B           &lt 2 Q        &lt 2 P      &kp N            &kp M  &kp COMMA  &lt 6 PERIOD  &kp SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 4 INT_HENKAN  &lt 3 LEFT_GUI  &lt 1 SPACE    &lt 1 SPACE  &lt 3 RIGHT_GUI                                  &kp DEL
             >;
 
             sensor-bindings = <&mouse_scroll SCRL_UP SCRL_DOWN>;
