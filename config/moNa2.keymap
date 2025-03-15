@@ -82,8 +82,8 @@
 
         layer_3 {
             bindings = <
-&kp LC(UP_ARROW)  &kp LC(LEFT_ARROW)  &kp UP_ARROW    &kp LC(RIGHT_ARROW)  &kp LC(DOWN_ARROW)                          &kp RC(UP_ARROW)  &kp RC(RA(RG(NUMBER_1)))    &kp RA(RC(RG(UP_ARROW)))    &kp RA(RC(RG(NUMBER_2)))     &kp RC(DOWN_ARROW)
-&kp HOME          &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp END             &trans       &trans     &kp HOME          &kp RA(RC(RG(LEFT_ARROW)))  &kp RA(RC(RG(M)))           &kp RA(RC(RG(RIGHT_ARROW)))  &kp END
+&trans            &trans              &kp UP_ARROW    &trans               &trans                                      &trans            &kp RC(RA(RG(NUMBER_1)))    &kp RA(RC(RG(UP_ARROW)))    &kp RA(RC(RG(NUMBER_2)))     &trans
+&kp HOME          &kp LEFT_ARROW      &trans          &kp RIGHT_ARROW      &kp END             &trans       &trans     &trans            &kp RA(RC(RG(LEFT_ARROW)))  &kp RA(RC(RG(M)))           &kp RA(RC(RG(RIGHT_ARROW)))  &trans
 &kp LC(UP_ARROW)  &kp LC(LEFT_ARROW)  &kp DOWN_ARROW  &kp LC(RIGHT_ARROW)  &kp LC(DOWN_ARROW)  &kp LG(L)    &kp RG(L)  &trans            &kp RA(RC(RG(NUMBER_3)))    &kp RA(RC(RG(DOWN_ARROW)))  &kp RA(RC(RG(NUMBER_4)))     &trans
 &trans            &trans              &trans          &trans               &trans              &trans       &trans     &trans                                                                                                 &trans
             >;
