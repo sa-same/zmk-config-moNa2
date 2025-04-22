@@ -66,7 +66,7 @@
 &trans           &trans       &trans     &trans         &trans        &trans    &trans  &trans                                                                  &trans
             >;
 
-            sensor-bindings = <&mouse_scroll SCRL_LEFT SCRL_RIGHT>;
+            sensor-bindings = <&mouse_scroll SCRL_UP SCRL_DOWN>;
         };
 
         layer_2 {
@@ -82,13 +82,13 @@
 
         layer_3 {
             bindings = <
-&trans            &trans              &kp UP_ARROW    &trans               &trans                                      &trans            &kp RC(RA(U))           &kp RC(RA(UP_ARROW))    &kp RC(RA(I))            &trans
-&kp HOME          &kp LEFT_ARROW      &trans          &kp RIGHT_ARROW      &kp END             &trans       &trans     &trans            &kp RA(RC(LEFT_ARROW))  &kp RA(RC(ENTER))       &kp RA(RC(RIGHT_ARROW))  &trans
-&kp LC(UP_ARROW)  &kp LC(LEFT_ARROW)  &kp DOWN_ARROW  &kp LC(RIGHT_ARROW)  &kp LC(DOWN_ARROW)  &kp LG(L)    &kp RG(L)  &trans            &kp RC(RA(J))           &kp RA(RC(DOWN_ARROW))  &kp RC(RA(K))            &trans
-&trans            &trans              &trans          &trans               &trans              &trans       &trans     &trans                                                                                     &trans
+&trans            &trans              &kp UP_ARROW    &trans               &trans                                      &trans  &kp RC(RA(U))           &kp RC(RA(UP_ARROW))    &kp RC(RA(I))            &trans
+&kp HOME          &kp LEFT_ARROW      &trans          &kp RIGHT_ARROW      &kp END             &trans       &trans     &trans  &kp RA(RC(LEFT_ARROW))  &kp RA(RC(ENTER))       &kp RA(RC(RIGHT_ARROW))  &trans
+&kp LC(UP_ARROW)  &kp LC(LEFT_ARROW)  &kp DOWN_ARROW  &kp LC(RIGHT_ARROW)  &kp LC(DOWN_ARROW)  &kp LG(L)    &kp RG(L)  &trans  &kp RC(RA(J))           &kp RA(RC(DOWN_ARROW))  &kp RC(RA(K))            &trans
+&trans            &trans              &trans          &trans               &trans              &trans       &trans     &trans                                                                           &trans
             >;
 
-            sensor-bindings = <&mouse_scroll SCRL_LEFT SCRL_RIGHT>;
+            sensor-bindings = <&mouse_scroll SCRL_UP SCRL_DOWN>;
         };
 
         layer_4 {
@@ -110,7 +110,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
             >;
 
-            sensor-bindings = <&mouse_scroll SCRL_LEFT SCRL_RIGHT>;
+            sensor-bindings = <&mouse_scroll SCRL_UP SCRL_DOWN>;
         };
 
         MOUSE {
